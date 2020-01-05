@@ -6,6 +6,9 @@ class Controller {
         .then((data)=>{
             res.json(data)
         })
+        .catch((err)=>{
+            res.json(err)
+        })
     }
 
     static findone(req, res){
@@ -14,6 +17,9 @@ class Controller {
         })
         .then((data)=>{
             res.json(data)
+        })
+        .catch((err)=>{
+            res.json(err)
         })
 
     }
@@ -30,6 +36,9 @@ class Controller {
         .then((data)=>{
             res.json(data)
         })
+        .catch((err)=>{
+            res.json(err)
+        })
     }
 
     static update(req, res){
@@ -38,6 +47,9 @@ class Controller {
         })
         .then((data)=>{
             res.json(data)
+        })
+        .catch((err)=>{
+            res.json(err)
         })
 
     }
@@ -48,6 +60,9 @@ class Controller {
         })
         .then((data)=>{
             res.json(data)
+        })
+        .catch((err)=>{
+            res.json(err)
         })
 
     }
